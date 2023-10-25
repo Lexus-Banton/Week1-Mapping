@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- metadata -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- title -->
+    <title>Week 1 Mapping assignment</title>
+    <!-- js -->
+    <script type="module" src="javascript/app.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <form id="add-list-form">
+        <label>
+          Country
+          <input type="text" name="country" />
+        </label>
+
+        <label>
+          Visit date
+          <input name="date" />
+        </label>
+
+        <button>add</button>
+      </form>
+
+      <div class="container">
+        <button id="remove-button">Clear</button>
+        <p id="error-display" class="" error></p>
+      </div>
+
+      <div class="container">
+        <ul id="country-list"></ul>
+        <p>click once country visited</p>
+      </div>
+    </main>
+  </body>
+</html>
